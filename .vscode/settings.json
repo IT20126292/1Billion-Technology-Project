@@ -1,0 +1,6 @@
+{
+    "search.useGlobalIgnoreFiles": true,
+    "git.allowForcePush": true,
+    "terminal.integrated.allowMnemonics": true,
+    "git.ignoreLimitWarning": true
+}

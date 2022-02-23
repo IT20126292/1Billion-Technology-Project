@@ -1,0 +1,171 @@
+/* Main table */
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(241, 241, 241, 0.719);
+}
+  
+table td, table th {
+    border: 0px solid rgb(231, 231, 231);
+    padding: 8px;
+    text-align: center;
+}
+  
+table tr:nth-child(even){
+      background-color: #e4e4e4d7;
+}
+  
+table tr:hover {
+    background-color: #3fd5af8c;
+}
+  
+table thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    /* background-color: #000000c4; */
+    color: rgb(235, 235, 235);
+}
+
+
+
+/* Second table */
+.table1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    max-width: 100%;
+}
+
+.th1 {
+    padding: 10px;
+    text-align: left;
+    width: auto;
+}
+
+.th2 {
+    padding: 4px;
+    text-align: right;
+    width: 35%;
+}
+
+/* .th3 {
+    padding: 4px;
+    text-align: right;
+    width: 16%;
+} */
+
+.thead1 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #3fd5af;
+    color: rgb(20, 20, 20);
+}
+
+.removeStyles{
+    width: 100%;
+    position: relative;
+    border: none;
+    color: black;
+    text-align: center;
+}
+
+.resizeWidth{
+    width: 18%;
+    background-color: #3fd5af;
+}
+
+.The1{
+    width: 10%;
+    background-color: #3fd5af;
+}
+
+.The2{
+    width: 26%;
+    background-color: #0f3a8b;
+}
+
+.The3{
+    width: 20%;
+    background-color: #3fd5af;
+}
+
+.The4{
+    width: 20%;
+    background-color: #0f3a8b;
+}
+
+.The5{
+    background-color: #3fd5af;
+    width: 16%;
+}
+
+.password-icon{
+    position:absolute;
+    top: 20px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.rOw1{
+    margin-left: 30%;
+}
+
+.vl{
+    position: absolute;
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 36px;
+    margin-left: 6px;
+}
+
+.search-box{
+    position: relative;
+    margin: auto;
+    height: 45px;
+    max-width: 50%;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(37, 37, 37);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 8px;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    height: 80%;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(39, 39, 39);
+    font-weight: 600;
+    transition: 0.6s;
+    line-height: 40px;
+}
+
+.fa-search{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.searchDesign{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: rgb(39, 39, 39);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(15, 226, 181);
+}
+
+.generateBtn{
+    margin-left: 1130px;
+}
